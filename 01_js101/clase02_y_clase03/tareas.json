@@ -1,0 +1,18 @@
+[
+ {
+  "titulo": "Una nueva tarea 2",
+  "estado": "curso"
+ },
+ {
+  "titulo": "Reapasar ejercicio day 3",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Reapasar js 101",
+  "estado": "cerrado"
+ },
+{
+    "titulo": "Ver material clase 1",
+    "estado": "cerrado"
+}
+]
