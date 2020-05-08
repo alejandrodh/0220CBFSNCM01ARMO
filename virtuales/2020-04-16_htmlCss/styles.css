@@ -1,0 +1,30 @@
+/* Selectores */
+
+/* Selector de etiqueta */
+h1 {
+    color: red;
+}
+
+/* Selector de clase */
+.termino-con-mas-palabras{
+    color: blue;
+}
+
+/* Selector de id */
+#uno {
+    font-size: 25px;
+    color: purple;
+}
+
+/* Selector descendente */
+ul .primero {
+    color: olive;
+}
+
+/* Selector combinado más específico */
+li.segundo {
+    color: brown;
+}
+
+
+

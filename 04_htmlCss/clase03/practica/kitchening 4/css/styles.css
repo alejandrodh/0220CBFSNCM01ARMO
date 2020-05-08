@@ -1,0 +1,38 @@
+/* Kitchening */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Reseteo generales 
+======================= */
+ul, ol{
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Header */
+.main-header{
+    text-align: center;
+}
+.logo {
+    border-radius: 90%;
+}
+
+.main-nav li{
+    background-color: #444;
+    margin-bottom: 2px;
+}
+.main-nav a {
+    color:#fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}

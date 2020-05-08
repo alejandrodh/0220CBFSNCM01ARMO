@@ -1,0 +1,87 @@
+/* Estilos Mercado Liebre */
+
+/* Reseteos generales */
+*{
+    box-sizing: border-box;
+}
+ul, ol{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Estilos mibile first */
+
+/* Generales */
+body {
+    background-color:  #ebebeb;
+}
+
+
+/* header */
+.main-header{
+    background-color: #EAC926;
+}
+.main-header .top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    max-width: 200px;
+    margin-right: 30px;
+}
+form {
+    max-width: 500px;
+    margin-right: 20px;
+}
+.main-nav{
+    display: none;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+/* Sección productos */
+.producto{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.producto img {
+    width: 100%;
+}
+.producto .details{
+    padding: 0 20px 20px 20px;  
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+}
+.delivery {
+    background: green;
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: -13px;
+    right: 21px;
+}
+.description{
+    width: 100%;
+}
+.price{
+    margin-right: 30px;
+}

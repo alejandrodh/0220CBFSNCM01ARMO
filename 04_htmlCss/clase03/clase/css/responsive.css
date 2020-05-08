@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Reseteo generales 
+======================= */
+ul, ol{
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+
+/* Primero mobile */
+@media(min-width: 400px){
+    h2{
+        color: red;
+    }
+    img {
+        width: 50%;
+    }
+}

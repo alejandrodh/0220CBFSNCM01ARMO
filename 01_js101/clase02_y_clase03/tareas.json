@@ -11,8 +11,12 @@
   "titulo": "Reapasar js 101",
   "estado": "cerrado"
  },
-{
-    "titulo": "Ver material clase 1",
-    "estado": "cerrado"
-}
+ {
+  "titulo": "Ver material clase 1",
+  "estado": "cerrado"
+ },
+ {
+  "titulo": "armar app nueva",
+  "estado": "pendiente"
+ }
 ]

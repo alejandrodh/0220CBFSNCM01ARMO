@@ -1,0 +1,20 @@
+{
+  "name": "digitalscience",
+  "version": "1.0.0",
+  "description": "Práctica de clase Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clase",
+    "fullStack",
+    "Node",
+    "express"
+  ],
+  "author": "ajv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
