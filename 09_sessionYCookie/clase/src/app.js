@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
 app.use(session({secret:'mercadoliebre'}));
-app.use(authMiddleware); //Aplicamos el middleware de logueo a nivel aplicación.
+app.use(authMiddleware); //Aplicamos el middleware para control de logueo a nivel aplicación.
 
 // ************ Template Engine - (don't touch) ************
 app.set('view engine', 'ejs');
