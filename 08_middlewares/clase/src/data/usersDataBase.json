@@ -1,0 +1,44 @@
+[
+ {
+  "id": 1,
+  "name": "ale",
+  "email": "ale@dh.com",
+  "password": "1234",
+  "image": "default-image.png"
+ },
+ {
+  "id": 2,
+  "name": "Gonza",
+  "email": "gonza@dh.com",
+  "password": "1234",
+  "image": "default-image.png"
+ },
+ {
+  "id": 3,
+  "name": "nacho",
+  "email": "nacho@dh.com",
+  "password": "1234",
+  "image": "default-image.png"
+ },
+ {
+  "id": 4,
+  "name": "Daro",
+  "email": "dario@dh.com",
+  "password": "$2a$10$A29dORi6VDKnp2XrvapaGOwBDc5w0dCLN4i1pM7yryTLy56nQIbQ2",
+  "image": "default-image.png"
+ },
+ {
+  "id": 5,
+  "name": "ale",
+  "email": "ale@dh.com",
+  "password": "$2a$10$35o8BchZk2GOeJT6II.1Oe.G2wc7.HyFjrJc7399Y4.uCuW1Vc7BC",
+  "image": "default-image.png"
+ },
+ {
+  "id": 6,
+  "name": "Uri",
+  "email": "uri@dh.com",
+  "password": "$2a$10$pUk9YiGUiOy7zfO7MQFh5.TJqOfkiOeixCDehGNaYQ0d8pbwowi8y",
+  "image": "default-image.png"
+ }
+]

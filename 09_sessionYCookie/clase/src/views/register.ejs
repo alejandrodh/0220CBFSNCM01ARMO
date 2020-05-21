@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Registro'}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Registrate</h2>
+			</div>
+		</div>
+		<div class="col-12">
+			<form action="/register" method="POST">
+				<% if( typeof errors != 'undefined'){ %>
+					<% errors.forEach(function(error){ %>
+						<p><%= error.msg %></p>
+					<% }) %>
+					<% } %>
+				<div class="row product-detail">
+					<div class="col-12 col-md-6">
+						<label for="name" class="form-label">Nombre</label>
+						<input type="text" id="name" name="name" placeholder="Ej: Alejandro J Vivone" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="email" class="form-label">Email</label>
+						<input type="email" id="email" name="email" placeholder="Ej: alejandro@dh.com" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="password" class="form-label">Contraseña:</label>
+						<input type="password" id="password" name="password" class="form-input">
+					</div>
+					<div class="col-12 col-md-6">
+						<label for="retype-password" class="form-label">Reescriba su contraseña:</label>
+						<input type="password" id="retype-password" name="retypePassword" class="form-input">
+					</div>
+					<div class="col-12">
+						<button type="submit" class="buy-now-button">Registrate</button>
+					</div>
+
+				</div>
+			</form>
+		</div>
+
+	</div>
+	<!-- /todos los productos -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+</body>	
+</html>

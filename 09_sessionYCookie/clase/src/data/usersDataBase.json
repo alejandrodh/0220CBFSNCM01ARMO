@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "name": "ale",
+  "email": "ale@dh.com",
+  "password": "$2a$10$im8mi5bgs3ILtCk0HF9C4.0EnB0EPoj9kSYUOOaHiBjTROm2fkV6O",
+  "image": "default-image.png"
+ },
+ {
+  "id": 3,
+  "name": "gonza",
+  "email": "gonza@dh.com",
+  "password": "$2a$10$nei4m9qOeGpx/.SG0hPhMeRW9GTbAiag.vLcMsvoo.Df.FXOnEnkW",
+  "image": "default-image.png"
+ },
+ {
+  "id": 4,
+  "name": "carlos",
+  "email": "carlos@dh.com",
+  "password": "$2a$10$LH.YPCfqnXWTmJrFKicnu.sufwUi8zFOa8tDUJFtqjG5w2FlB6eEC",
+  "image": "default-image.png"
+ }
+]
